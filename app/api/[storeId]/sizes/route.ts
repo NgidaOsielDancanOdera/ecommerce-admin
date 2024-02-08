@@ -1,3 +1,5 @@
+//This code defines API endpoints (POST and GET) for managing sizes related to a store. 
+
 import { NextResponse } from 'next/server';
 import { auth } from '@clerk/nextjs';
 

@@ -1,3 +1,5 @@
+//The Heading component is a functional React component that takes in two props: title and description, both of which are of type string. 
+
 interface HeadingProps {
     title: string;
     description: string;

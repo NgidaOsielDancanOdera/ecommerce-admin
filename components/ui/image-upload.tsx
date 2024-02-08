@@ -1,3 +1,5 @@
+//This ImageUpload component is a React functional component used for uploading and displaying images.
+
 "use client";
 
 import { CldUploadWidget } from 'next-cloudinary';

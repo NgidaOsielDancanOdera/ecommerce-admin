@@ -1,3 +1,9 @@
+//These serverless functions handle CRUD operations for billboards belonging to a specific store.
+
+//POST: Creates a new billboard for a store after authentication and authorization checks. It requires a label, image URL, and store ID in the request body.
+//GET: Retrieves all billboards for a specific store based on the provided store ID.
+
+
 import { NextResponse } from 'next/server';
 import { auth } from '@clerk/nextjs';
 

@@ -1,3 +1,5 @@
+//This code snippet defines a custom hook useCategoryModal using Zustand for managing the state related to a category modal. Here's a breakdown of its functionality:
+
 import { create } from 'zustand';
 
 interface useCategoryModalStore {

@@ -1,3 +1,5 @@
+//This file handles HTTP requests related to category resources in a RESTful API. It includes functions for retrieving category data (GET), deleting categories (DELETE), and updating categories (PATCH). These functions authenticate users, validate input parameters, and perform database operations using Prismadb. Responses are returned in JSON format, with appropriate error handling for internal server errors or unauthorized actions.
+
 import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs";
 

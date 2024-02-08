@@ -1,3 +1,5 @@
+//This code defines a custom Checkbox component using the @radix-ui/react-checkbox library along with the lucide-react library for the checkmark icon.
+
 "use client"
 
 import * as React from "react"

@@ -1,3 +1,5 @@
+//The provided code defines a separator component used to visually separate content. 
+
 "use client"
 
 import * as React from "react"

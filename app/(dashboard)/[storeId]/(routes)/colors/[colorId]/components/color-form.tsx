@@ -1,3 +1,15 @@
+//The ColorForm component is a React form component 
+//responsible for creating or editing color data. It utilizes 
+//zod for form validation and axios for HTTP requests. The form handles
+ //creation, editing, and deletion of color data, providing feedback through
+  //toast notifications and a confirmation modal.
+
+
+
+
+
+
+
 "use client"
 
 import * as z from "zod"

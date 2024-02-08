@@ -1,3 +1,12 @@
+//This layout component ensures that the user is authenticated and either redirects them to sign in or to their store's page based on whether a store is already set up. If no store is set up, it allows the setup process to proceed by rendering its children components.
+
+
+
+
+
+
+
+
 import { redirect } from 'next/navigation';
 import { auth } from '@clerk/nextjs';
 

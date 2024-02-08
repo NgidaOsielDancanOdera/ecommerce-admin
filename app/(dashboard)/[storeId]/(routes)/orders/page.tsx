@@ -1,3 +1,11 @@
+
+//The OrdersPage component fetches orders from a database, 
+//formats them, and renders them using the OrderClient component.
+ //It first imports necessary libraries and components, then defines 
+ //the OrdersPage function, which fetches orders based on the storeId parameter. 
+ //The fetched orders are formatted and passed to the OrderClient component for rendering in a tabular format.
+
+
 import { format } from "date-fns";
 
 import prismadb from "@/lib/prismadb";

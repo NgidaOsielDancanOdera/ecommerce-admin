@@ -1,3 +1,12 @@
+//This code defines a React component, CategoryForm, used for creating 
+//and editing category data. It imports modules for form validation, 
+//HTTP requests, and managing form state. The component renders form 
+//fields for category name and associated billboard selection. Upon submission, 
+//the data is sent to the server for processing. Error handling and feedback are 
+//provided through toast messages. Overall, it facilitates user interaction with 
+//category data in a web application.
+
+
 "use client"
 
 import * as z from "zod"

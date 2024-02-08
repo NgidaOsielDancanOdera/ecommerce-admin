@@ -1,3 +1,5 @@
+//This code defines a ThemeToggle component that provides a dropdown menu for toggling between light, dark, and system themes. 
+
 "use client"
 
 import * as React from "react"

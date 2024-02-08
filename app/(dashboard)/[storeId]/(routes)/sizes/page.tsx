@@ -1,3 +1,9 @@
+//This code defines a page component called SizesPage, 
+//which fetches size data from a database, formats it, 
+//and then passes it to the SizesClient component for rendering. 
+
+
+
 import { format } from "date-fns";
 
 import prismadb from "@/lib/prismadb";

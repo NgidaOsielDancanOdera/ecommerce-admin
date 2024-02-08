@@ -1,3 +1,6 @@
+//This code defines a React component called Badge with variants such as default, secondary, destructive, and outline. It utilizes the class-variance-authority library to manage variant styles. The Badge component renders a badge element with the specified variant style and accepts additional HTML attributes as props.
+
+
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 

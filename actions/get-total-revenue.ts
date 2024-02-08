@@ -1,3 +1,8 @@
+//This file defines getTotalRevenue, a function that asynchronously 
+//calculates the total revenue for a specified store by querying the database.
+ //It retrieves paid orders and their associated products, then sums up the 
+ //prices to determine the total revenue. The function returns the total revenue once computed.
+
 import prismadb from "@/lib/prismadb";
 
 export const getTotalRevenue = async (storeId: string) => {

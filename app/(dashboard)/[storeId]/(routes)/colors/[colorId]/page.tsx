@@ -1,3 +1,16 @@
+//The ColorPage component is a Next.js page responsible for 
+//rendering the color form. It retrieves the initial color data 
+//from the database using the provided colorId parameter. 
+//The ColorForm component is then rendered with the retrieved data, 
+//allowing users to edit the color information.
+
+
+
+
+
+
+
+
 import prismadb from "@/lib/prismadb";
 
 import { ColorForm } from "./components/color-form";

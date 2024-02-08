@@ -1,3 +1,5 @@
+//This code defines API endpoints (POST and GET) for managing colors associated with a store. 
+
 import { NextResponse } from 'next/server';
 
 import prismadb from '@/lib/prismadb';

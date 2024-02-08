@@ -1,3 +1,5 @@
+//This code defines a set of components for creating dialogs in a React application. These components are built using the @radix-ui/react-dialog library and additional styles for customization.
+
 "use client"
 
 import * as React from "react"

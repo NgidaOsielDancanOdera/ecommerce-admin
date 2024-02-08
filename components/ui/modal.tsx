@@ -1,3 +1,5 @@
+//This code defines a Modal component that wraps the Radix UI Dialog component. It provides a modal dialog with customizable title, description, and content.
+
 "use client";
 
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";

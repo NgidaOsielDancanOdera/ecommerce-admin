@@ -1,3 +1,11 @@
+//The ProductsClient component is responsible for rendering
+ //the UI to manage products for a store. It displays a heading
+  //with the total number of products and a description, along 
+  //with a button to add a new product. It also includes a data 
+  //table to display the products with search functionality, 
+  //and an API section to list API calls related to products.
+
+
 "use client";
 
 import { Plus } from "lucide-react";

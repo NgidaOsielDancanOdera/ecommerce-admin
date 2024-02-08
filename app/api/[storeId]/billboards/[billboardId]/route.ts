@@ -1,3 +1,9 @@
+//GET: Retrieves billboard data by ID.
+//DELETE: Deletes a billboard by ID after authentication and authorization checks.
+//PATCH: Updates a billboard's label and image URL after authentication and authorization checks.
+
+
+
 import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs";
 

@@ -1,3 +1,13 @@
+//The ProductPage component fetches the necessary data for
+ //displaying and editing a specific product. It retrieves 
+ //the product details, including associated images, from the
+  //database using Prismadb. Additionally, it fetches the categories,
+   //sizes, and colors available in the store to populate the corresponding
+    //dropdown menus in the ProductForm component. Finally, it renders the
+     //ProductForm component with the fetched data and passes the retrieved 
+     //categories, sizes, and colors as props.
+
+
 import prismadb from "@/lib/prismadb";
 
 import { ProductForm } from "./components/product-form";

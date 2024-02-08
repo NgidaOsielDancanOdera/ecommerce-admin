@@ -1,3 +1,5 @@
+//This code defines a Card component along with several related components (CardHeader, CardFooter, CardTitle, CardDescription, CardContent) for building card-based UIs in React. 
+
 import * as React from "react"
 
 import { cn } from "@/lib/utils"

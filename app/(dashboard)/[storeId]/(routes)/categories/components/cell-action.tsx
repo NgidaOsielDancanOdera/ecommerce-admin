@@ -1,3 +1,15 @@
+//This code defines a React component named CellAction, 
+//which represents actions available for each category item in a table. 
+//It imports various modules such as axios for HTTP requests, 
+//useState for managing state, and Lucide icons for visual elements. 
+//The component receives data containing details about a specific category
+ //item and renders a dropdown menu with options for copying the category ID, 
+ //updating the category, or deleting it. Clicking on the menu options triggers 
+ //corresponding actions, such as copying the ID to the clipboard or initiating a deletion process. 
+ //Additionally, an alert modal is used to confirm the deletion action. 
+ //Overall, this component provides an interface for managing category items within a web application.
+
+
 "use client";
 
 import axios from "axios";

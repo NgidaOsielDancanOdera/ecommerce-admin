@@ -1,3 +1,5 @@
+//This code snippet defines a custom hook named useStoreModal using Zustand. 
+
 import { create } from 'zustand';
 
 interface useStoreModalStore {

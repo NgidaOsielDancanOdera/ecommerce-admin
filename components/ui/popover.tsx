@@ -1,3 +1,5 @@
+//This code defines a Popover component using Radix UI's Popover primitives. Popovers are used to display additional information or options when users interact with a specific element.
+
 "use client"
 
 import * as React from "react"

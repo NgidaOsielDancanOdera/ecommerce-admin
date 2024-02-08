@@ -1,3 +1,5 @@
+//This code snippet defines a custom hook named useProductModal using Zustand, a state management library for React.
+
 import { create } from 'zustand';
 
 interface useProductModalStore {

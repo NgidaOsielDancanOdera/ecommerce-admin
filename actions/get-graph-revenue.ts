@@ -1,3 +1,10 @@
+//This file fetches revenue data from a database for a given store, 
+//organizes it by month, and formats it into a structure suitable 
+//for graph representation. The getGraphRevenue function 
+//efficiently processes paid orders, including order item 
+//and product details, calculates monthly revenue totals, and
+ //prepares the data for seamless display on a graph.
+
 import prismadb from "@/lib/prismadb";
 
 interface GraphData {

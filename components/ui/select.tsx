@@ -1,3 +1,5 @@
+//The code provided defines a set of UI components related to select inputs. 
+
 "use client"
 
 import * as React from "react"

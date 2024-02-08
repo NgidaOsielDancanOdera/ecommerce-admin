@@ -1,3 +1,5 @@
+//This React component, ApiAlert, renders an alert to display information about an API route. It accepts props for the title, description, and variant of the alert, with the variant determining whether it's for public or admin use.
+
 import { Copy, Server } from "lucide-react";
 import { toast } from "react-hot-toast";
 

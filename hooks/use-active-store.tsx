@@ -1,3 +1,5 @@
+//This code snippet defines a custom hook useActiveStore using Zustand, a small, fast, and scalable state management library for React. 
+
 import { create } from 'zustand';
 
 interface useActiveStoreInterface {

@@ -1,3 +1,11 @@
+//The ProductForm component handles the creation and editing
+ //of products. It utilizes form validation with Zod, integrates
+  //with React Hook Form for form management, and utilizes Axios
+   //for API requests. The form includes fields for product name,
+    //images, price, category, size, color, and flags for featured and
+     //archived status. It also provides an option to delete the product.
+
+
 "use client"
 
 import * as z from "zod"

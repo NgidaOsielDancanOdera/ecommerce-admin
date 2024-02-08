@@ -1,3 +1,5 @@
+//This code defines a Navbar component that serves as the top navigation bar for the application.
+
 import { UserButton, auth } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 

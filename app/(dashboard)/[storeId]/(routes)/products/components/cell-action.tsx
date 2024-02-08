@@ -1,3 +1,12 @@
+//The CellAction component is responsible for rendering
+ //the action buttons (Copy, Update, Delete) for each product in a table. 
+ //It utilizes Lucide icons for the button icons and integrates with Next.js router 
+ //and Axios for navigation and API calls, respectively. The component manages the 
+ //state for the delete confirmation modal and loading state during API calls. 
+ //Finally, it triggers toasts to provide feedback to the user after successful or failed actions.
+
+
+
 "use client";
 
 import axios from "axios";

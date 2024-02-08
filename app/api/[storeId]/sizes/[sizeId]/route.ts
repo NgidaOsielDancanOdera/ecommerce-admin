@@ -1,3 +1,6 @@
+//This code defines API endpoints (GET, DELETE, and PATCH) for managing sizes. 
+
+
 import { NextResponse } from "next/server";
 
 import prismadb from "@/lib/prismadb";

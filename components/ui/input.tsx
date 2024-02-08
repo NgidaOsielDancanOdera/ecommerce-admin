@@ -1,3 +1,5 @@
+//This Input component is a reusable React functional component used for rendering HTML input elements. It accepts props of type InputProps, which extends React.InputHTMLAttribute
+
 import * as React from "react"
 
 import { cn } from "@/lib/utils"

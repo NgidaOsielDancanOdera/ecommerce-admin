@@ -1,3 +1,10 @@
+//This code defines a React component, CategoriesClient, 
+//for managing category data within a web application. 
+//It renders a heading indicating the number of categories and a button 
+//to add a new one. It displays category data in a table with search functionality 
+//and also lists API calls related to categories.
+
+
 "use client";
 
 import { Plus } from "lucide-react";

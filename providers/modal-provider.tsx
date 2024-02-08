@@ -1,3 +1,5 @@
+//This code snippet defines a ModalProvider component responsible for rendering a modal component (StoreModal). 
+
 "use client";
 
 import { useEffect, useState } from "react";

@@ -1,3 +1,6 @@
+//This React component, StoreModal, is responsible for rendering a modal dialog box for creating a new store. 
+
+
 "use client";
 
 import * as z from "zod"

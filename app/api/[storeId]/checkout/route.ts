@@ -1,3 +1,7 @@
+//This code implements an API endpoint (POST) for creating a Stripe Checkout session to process payments for a list of products. 
+
+
+
 import Stripe from "stripe";
 import { NextResponse } from "next/server";
 

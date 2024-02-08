@@ -1,3 +1,6 @@
+//This React component, AlertModal, is designed to render a modal dialog box with an alert message and two buttons: one for canceling the action and the other for confirming it. 
+
+
 "use client";
 
 import { useEffect, useState } from "react";

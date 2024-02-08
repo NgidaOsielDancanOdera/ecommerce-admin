@@ -1,3 +1,5 @@
+//These components facilitate the creation of a command-based user interface with various elements such as input fields, lists, groups, and shortcuts, styled according to the cmdk design system.
+
 "use client"
 
 import * as React from "react"

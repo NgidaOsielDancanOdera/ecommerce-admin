@@ -1,3 +1,5 @@
+//This code snippet defines a ThemeProvider component that serves as a wrapper around the ThemeProvider component provided by next-themes. 
+
 "use client"
 
 import * as React from "react"

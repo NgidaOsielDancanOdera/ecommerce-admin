@@ -1,3 +1,22 @@
+//Import Statements: It imports necessary modules and components such as axios for HTTP requests, various icons from lucide-react, useState hook from React, toast for displaying notifications, and useParams and useRouter from next/navigation for accessing route parameters and navigation methods, respectively.
+
+//Component Definition: The CellAction component is defined as a functional component that receives data as a prop, which represents the data associated with the cell.
+
+//State Management: It uses the useState hook to manage the state for the modal (open) and loading status (loading) of the action.
+
+//Event Handlers:
+
+//onConfirm: This function handles the delete action. It sends a DELETE request to the server to delete the size associated with the cell's data (data.id). Upon successful deletion, it displays a success toast and refreshes the page.
+//onCopy: This function copies the size ID associated with the cell's data (data.id) to the clipboard and displays a success toast.
+//Rendering:
+
+//The component renders a dropdown menu (DropdownMenu) containing action items.
+//Each action item (DropdownMenuItem) has an icon and a label representing the action (Copy, Update, Delete).
+//Clicking on the action items triggers the corresponding event handlers (onCopy, navigation to update page, and opening the delete confirmation modal).
+//AlertModal: It renders an AlertModal component, which is used to confirm the delete action. The modal is shown when the user clicks the delete action, and it displays a confirmation message with options to confirm or cancel the action.
+
+
+
 "use client";
 
 import axios from "axios";

@@ -1,3 +1,15 @@
+//The ProductsPage component fetches product data 
+//from the database and formats it to be displayed 
+//in the ProductsClient component. It retrieves product 
+//details such as name, price, category, size, color, 
+//creation date, and other attributes. The formatted product 
+//data is passed to the ProductsClient component for rendering. 
+//The ProductsClient component manages the display of products 
+//in a data table format.
+
+
+
+
 import { format } from "date-fns";
 
 import prismadb from "@/lib/prismadb";

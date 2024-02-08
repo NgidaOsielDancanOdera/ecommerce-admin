@@ -1,3 +1,9 @@
+//Authentication: Checks if the user is authenticated using Clerk.
+//Redirects: Redirects to the sign-in page if the user is not authenticated, and redirects to the home page if the store is not found.
+//Fetching Store Data: Retrieves store data from the database based on the store ID and user ID.
+//Rendering: Renders the SettingsForm component with the initial data of the store.
+
+
 import { redirect } from "next/navigation";
 import { auth } from "@clerk/nextjs";
 

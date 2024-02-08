@@ -1,3 +1,5 @@
+//This custom hook named useOrigin is designed to retrieve the origin of the current window's location.
+
 import { useEffect, useState } from "react";
 
 export const useOrigin = () => {

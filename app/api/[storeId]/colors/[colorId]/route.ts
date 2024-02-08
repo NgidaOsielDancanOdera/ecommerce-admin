@@ -1,3 +1,5 @@
+//This code implements API endpoints (GET, DELETE, PATCH) for handling color-related operations.
+
 import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs";
 

@@ -1,3 +1,5 @@
+//This code defines a navigation component called MainNav, which is used to render a list of navigation links for different sections of a web application. Here's a breakdown of its functionality:
+
 "use client";
 
 import Link from "next/link"

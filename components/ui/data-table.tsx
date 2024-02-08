@@ -1,3 +1,5 @@
+//This code defines a DataTable component that creates a table for displaying data.
+
 "use client"
 
 import { useState } from "react"

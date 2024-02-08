@@ -1,3 +1,14 @@
+//The columns array in the ProductColumn file defines
+ //the columns for the data table displaying product information. 
+ //Each column object includes an accessorKey defining the key to 
+ //access the data, a header specifying the column header, and optionally
+  //a cell function to customize the rendering of cell content.The color 
+  //column has a custom cell renderer that displays the color name along
+   //with a colored circle representing the color.
+
+
+
+
 "use client"
 
 import { ColumnDef } from "@tanstack/react-table"

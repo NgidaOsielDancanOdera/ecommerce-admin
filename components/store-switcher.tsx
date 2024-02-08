@@ -1,3 +1,5 @@
+//This code defines a StoreSwitcher component that provides a dropdown menu for selecting stores.
+
 "use client"
 
 import * as React from "react"

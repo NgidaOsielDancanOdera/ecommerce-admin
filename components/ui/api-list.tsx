@@ -1,3 +1,7 @@
+//This ApiList component is used to display a list of API endpoints for CRUD operations related to a specific entity. It takes entityName and entityIdName as props to customize the API routes accordingly.
+
+
+
 "use client";
 
 import { ApiAlert } from "@/components/ui/api-alert";

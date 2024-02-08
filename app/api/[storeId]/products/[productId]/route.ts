@@ -1,3 +1,5 @@
+//This code defines API endpoints (GET, DELETE, and PATCH) for managing products. Here's a brief overview of its functionality:
+
 import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs";
 

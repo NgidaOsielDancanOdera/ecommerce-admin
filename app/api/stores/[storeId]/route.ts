@@ -1,3 +1,5 @@
+//This code defines two API endpoints for managing store resources:
+
 import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs";
 

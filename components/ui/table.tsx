@@ -1,3 +1,5 @@
+//This code defines a set of React components for creating tables with customizable styles. 
+
 import * as React from "react"
 
 import { cn } from "@/lib/utils"

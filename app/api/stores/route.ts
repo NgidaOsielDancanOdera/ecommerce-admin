@@ -1,3 +1,5 @@
+//This code defines an API endpoint for creating a new store:
+
 import { NextResponse } from 'next/server';
 import { auth } from '@clerk/nextjs';
 

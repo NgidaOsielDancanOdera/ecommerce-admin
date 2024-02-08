@@ -1,3 +1,14 @@
+//This code defines a React component called CellAction, 
+//which represents actions available for each billboard item in a table. 
+//It imports various modules such as axios for HTTP requests, useState for managing state, 
+//and Lucide icons for visual elements. The component receives data containing details
+ //about a specific billboard item and renders a dropdown menu with options for copying 
+ //the billboard ID, updating the billboard, or deleting it. Clicking on the menu options 
+ //triggers corresponding actions, such as copying the ID to the clipboard or initiating a 
+ //deletion process. Additionally, an alert modal is used to confirm the deletion action. 
+ //Overall, this component provides an interface for managing billboard items within a web application.
+
+
 "use client";
 
 import axios from "axios";

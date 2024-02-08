@@ -1,3 +1,6 @@
+//Overall, this layout sets up the foundation for your Next.js application, including authentication, theming, and global state management for toast notifications and modals.
+
+
 import { ClerkProvider } from '@clerk/nextjs'
 import { Inter } from 'next/font/google'
 
@@ -10,7 +13,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Dashboard',
+  title: 'Admin-Dashboard',
   description: 'E-Commerce Dashboard',
 }
 

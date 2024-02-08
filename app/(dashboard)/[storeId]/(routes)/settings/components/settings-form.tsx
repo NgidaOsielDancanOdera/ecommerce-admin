@@ -1,3 +1,9 @@
+//Validation: Validates form data using zod.
+//Submission: Sends a PATCH request to update store settings and handles success/error messages.
+//Deletion: Allows deleting the store, with confirmation, and handles success/error messages.
+//Input: Provides a field for editing the store name.
+//API URL: Displays the API URL for the store.
+
 "use client"
 
 import * as z from "zod"

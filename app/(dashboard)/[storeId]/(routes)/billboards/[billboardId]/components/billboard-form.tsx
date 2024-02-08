@@ -1,3 +1,14 @@
+//This code implements a React component called BillboardForm,
+ //which is responsible for creating or editing billboard data.
+  //It utilizes various libraries like Zod for form validation, 
+  //axios for HTTP requests, and React Hook Form for managing form state. 
+  //The component receives initial data for editing purposes and includes 
+  //form fields for the billboard's label and image URL. Users can submit 
+  //the form to create or update billboard data, with error handling and 
+  //feedback provided through toast messages. Additionally, there's an option 
+  //to delete billboards, triggering a confirmation modal. Overall, this component 
+  //facilitates the management of billboard information within a web application.
+
 "use client"
 
 import * as z from "zod"

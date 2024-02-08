@@ -1,3 +1,10 @@
+//The DashboardLayout component ensures that the user is authenticated
+ //and has access to the specified store before rendering the dashboard content. 
+ //It fetches store information based on the storeId and userId, and if successful, 
+ //it renders the navigation bar (Navbar) and the children (dashboard content) inside the layout. 
+ //If authentication or access fails, it redirects the user accordingly.
+
+
 import { redirect } from 'next/navigation';
 import { auth } from '@clerk/nextjs';
 

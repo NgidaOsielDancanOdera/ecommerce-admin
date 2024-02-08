@@ -1,3 +1,5 @@
+//This code defines a Label component using the @radix-ui/react-label package for label styling. It also utilizes class-variance-authority (cva) for managing variant styles.
+
 "use client"
 
 import * as React from "react"

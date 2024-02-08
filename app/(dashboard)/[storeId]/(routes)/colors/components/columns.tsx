@@ -1,3 +1,11 @@
+//This code defines the column configuration for the color data table. 
+//Each column represents a specific property of a color object, such as name, 
+//value, and creation date. The columns array contains objects specifying the accessor key, 
+//header label, and optionally a custom cell renderer for each column. 
+//The CellAction component is used to render actions for each color row, such as editing and deleting.
+
+
+
 "use client"
 
 import { ColumnDef } from "@tanstack/react-table"

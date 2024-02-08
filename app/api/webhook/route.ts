@@ -1,3 +1,5 @@
+//This code defines a webhook endpoint for handling events from Stripe, particularly events related to checkout sessions. Here's a breakdown of how it works:
+
 import Stripe from "stripe"
 import { headers } from "next/headers"
 import { NextResponse } from "next/server"

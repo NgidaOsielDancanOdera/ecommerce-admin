@@ -1,3 +1,12 @@
+//Form Validation: It utilizes Zod for form validation to ensure that the input data meets the specified schema requirements.
+//Form State Management: It uses the useState hook to manage the state of the form, such as whether the delete confirmation modal is open and whether the form is in a loading state.
+//Form Submission: It handles form submission asynchronously, making HTTP requests to the appropriate API endpoints (POST for creating and PATCH for updating sizes).
+//Delete Confirmation: It provides a delete button that, when clicked, opens a modal to confirm deletion. Upon confirmation, it sends a DELETE request to the API to delete the size.
+//Dynamic Content: It dynamically adjusts the form title, description, and action button text based on whether the form is used for creating or editing a size.
+//Rendering: It renders form fields for entering the size name and value. These fields are disabled while the form is submitting to prevent multiple submissions.
+//Routing: It uses Next.js router hooks (useParams and useRouter) to access route parameters and perform navigation after form submission or deletion.
+
+
 "use client"
 
 import * as z from "zod"
